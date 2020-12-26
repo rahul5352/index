@@ -4,12 +4,13 @@ from headers import headers
 import urls
 import os
 #from flask import request
-
-client = TelegramClient('anfghohn', int(os.environ.get("APP_ID" )), os.environ.get("API_HASH")).start(bot_token= os.environ.get("TG_BOT_TOKEN"))
+client = TelegramClient('anfgyyyhohn',2630179,"2d9f8472b3e2ebeb15330ef0d8627c86").start(bot_token= "1480417076:AAHppKDOMFdHbw7fOesVUwGH4-YtBQDjpQo")
+#client = TelegramClient('anfghvhhbohn',
+#client = TelegramClient('anfghohn', int(os.environ.get("APP_ID" )), os.environ.get("API_HASH")).start(bot_token= os.environ.get("TG_BOT_TOKEN"))
 @client.on(events.NewMessage(pattern='/start'))
 async def handler(event):
     chat = await event.get_chat()
-    await client.send_message(chat,"""💁hey i am created by infinitrocyber subscribe my channel https://t.me/ymtvofficial @ymtvofficial 👍👍👍👍👍👍
+    await client.send_message(chat,"""💁hey i am created by infinitrocyber subscribe my channel https://m.youtube.com/channel/UCLHZQApnu1vN2j7fKDgv74w 👍👍👍👍👍👍
     i support zee5 and mx player-movies full mx player later develop send me mx players like https://www.mxplayer.in/movie/ba472677b661a6d09ab73f47d33c0c90 """)
     
 
